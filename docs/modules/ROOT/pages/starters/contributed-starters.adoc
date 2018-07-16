@@ -48,6 +48,8 @@ https://github.com/graphql-java/graphql-spring-boot
 |none
 |===
 
+Add link:https://github.com/graphql-java/graphql-java-tools[GraphQL Java Tools] for auto-configuration of a GraphQL schema.
+
 == Spring Boot GraphiQL
 https://github.com/graphql-java/graphql-spring-boot
 
@@ -59,5 +61,21 @@ https://github.com/graphql-java/graphql-spring-boot
 
 |Full support
 |To be verified
+|none
+|===
+
+== Spring Boot Voyager
+https://github.com/graphql-java/graphql-spring-boot
+
+Under investigation
+
+[cols="1,1,4",opts=header]
+|===
+|Support level
+|Status
+|Remarks
+
+|Not supported
+|-
 |none
 |===
