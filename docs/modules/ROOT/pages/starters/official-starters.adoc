@@ -70,10 +70,22 @@ Currently not supported, to be investigated.
 == HATEOAS
 
 Hypermedia should be correctly supported.
-Spring Boot Data Rest includes hateoas, see <<spring-boot-starter-data-rest,Spring Boot Starter Data Rest>>.
+Spring Boot Data Rest includes HATEOAS, see <<spring-boot-starter-data-rest,Spring Boot Starter Data Rest>>.
+
+[cols="1,1,4",opts=header]
+|===
+|Support level
+|Status
+|Remarks
+
+|Full support
+|Verified
+|
+|===
 
 .Auto-configuration classes:
-* ``HypermediaAutoConfiguration``
+* `HypermediaAutoConfiguration`
+* `HypermediaAutoConfigurationAdapter`
 
 == Integration
 

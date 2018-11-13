@@ -195,6 +195,7 @@ https://projects.spring.io/spring-data-rest/
 
 * ``RepositoryRestMvcAutoConfiguration``
 * ``HypermediaAutoConfiguration``
+* ``HypermediaAutoConfigurationAdapter``
 
 == Data SOLR
 https://projects.spring.io/spring-data-solr/
