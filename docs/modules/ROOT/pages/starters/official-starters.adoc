@@ -53,7 +53,7 @@ Currently not supported, to be investigated.
 == Batch
 
 Under investigation.
-There is currently an Across standard module https://across.foreach.be/modules/SpringBatchModule that will most likely be discontinued in favour of auto-configuration.
+There is currently an Across standard module https://across.dev/modules/SpringBatchModule that will most likely be discontinued in favour of auto-configuration.
 
 == Cache
 
@@ -174,7 +174,7 @@ LoggingApplicationListener
 == Mobile
 
 Currently not supported, to be investigated.
-There is a https://across.foreach.be/modules/SpringMobileModule that integrates with AcrossWebModule to enable Spring mobile support.
+There is a https://across.dev/modules/SpringMobileModule that integrates with AcrossWebModule to enable Spring mobile support.
 
 == Mustache
 
