@@ -41,12 +41,20 @@ Some auto-configuration classes need to setup infrastructure in more than one mo
 In that case you will also need a custom configuration class that injects the required code in the relevant modules (usually all of them in a case like this).
 
 [[acrosscontextpostprocessormodule]]
+== AcrossContextInfrastructureModule
+Every Across context contains a placeholder module called *AcrossContextInfrastructureModule*.
+It usually starts as the very first module.
+It can be used as an extension point to move configuration classes to that need to be available for all other modules.
+
+If no configuration has been added to the module, it will be skipped and not bootstrap.
+
+[[acrosscontextpostprocessormodule]]
 == AcrossContextPostProcessorModule
 Every Across context contains a placeholder module called *AcrossContextPostProcessorModule*.
 It usually starts as the very last module, after the application module.
 It can be used to move configuration classes to that need to rely on components defined by all other modules.
 
-If no configuration has been added to the module, it will be disabled and not bootstrap.
+If no configuration has been added to the module, it will be skipped and not bootstrap.
 
 [#across-configuration]
 == META-INF/across.configuration
