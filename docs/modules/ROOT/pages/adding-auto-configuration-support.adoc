@@ -40,7 +40,7 @@ The most common problems to solve have to do with where to put the actual auto-c
 Some auto-configuration classes need to setup infrastructure in more than one module.
 In that case you will also need a custom configuration class that injects the required code in the relevant modules (usually all of them in a case like this).
 
-[[acrosscontextpostprocessormodule]]
+[[acrosscontextinfraprocessormodule]]
 == AcrossContextInfrastructureModule
 Every Across context contains a placeholder module called *AcrossContextInfrastructureModule*.
 It usually starts as the very first module.
