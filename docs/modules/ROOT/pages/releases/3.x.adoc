@@ -1,0 +1,13 @@
+= 3.x.x release notes
+
+[#3-0-0]
+== 3.0.0.RELEASE
+
+* Changed Cassandra driver package from `com.datastax.driver.core.Session` to `com.datastax.oss.driver.api.core.CqlSession`
+* Bumped spring-cloud-dependencies to `Hoxton.SR4` to align with Spring Boot
+* Updated Spring Boot Admin to 2.3.0 to align with Spring Boot
+* Updated GraphQL Spring Boot starter and GraphQL Java to latest versions
+* Added new package names for GraphQL to across-configuration.yml
+* Changed Hateos deprecated classes, see https://docs.spring.io/spring-hateoas/docs/current/reference/html/#migrate-to-1.0
+* Updated tests to use testcontainers
+* Moved all tests to JUnit5

@@ -1,0 +1,21 @@
+= Across Autoconfigure releases
+
+[[module-artifact]]
+== Artifact
+
+[source,xml]
+----
+<dependencies>
+    <dependency>
+        <groupId>com.foreach.across</groupId>
+        <artifactId>across-autoconfigure</artifactId>
+    </dependency>
+</dependencies>
+----
+
+== Release notes
+
+`across-autoconfigure` follows a https://semver.org[semantic versioning] scheme.
+
+* xref:releases/3.x.adoc[3.0.0]
+
