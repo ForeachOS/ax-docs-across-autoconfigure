@@ -1,5 +1,5 @@
 name: across-autoconfigure
 title: Auto-configuration Support
-version: 3.0.0-SNAPSHOT
+version: master
 nav:
 - modules/ROOT/nav.adoc
