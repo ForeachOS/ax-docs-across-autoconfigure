@@ -1,7 +1,7 @@
-= 3.x.x release notes
+= 2.1.x release notes
 
-[#3-0-0]
-== 3.0.0.RELEASE
+[#2-1-0]
+== 2.1.0.RELEASE
 
 * Changed Cassandra driver package from `com.datastax.driver.core.Session` to `com.datastax.oss.driver.api.core.CqlSession`
 * Bumped spring-cloud-dependencies to `Hoxton.SR4` to align with Spring Boot
